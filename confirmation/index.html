@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <header>
+        <div class="Logo"><a href="/"><img src="/" alt="GameHubLogo">Logo</a></div>
+        <nav class="toppers">
+            <ul>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms and Conditions</a></li>
+                <li><a href="../checkout/index.html">Your cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="confirmation">
+            <h2>Thank You!</h2>
+            <p>Your order has been successfully placed.</p>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li>Contact</li>
+            <li>Report Issue</li>
+            <li>Rate us</li>
+        </ul>
+    </footer>
+    <script>
+function clearCart() {
+    localStorage.setItem('cart', JSON.stringify([]));
+}
+clearCart();
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <script type="module" src="index.mjs"></script>
+    <script type="module" src="../test.mjs"></script>
+</head>
+<body>
+    <header>
+        <div class="Logo"><a href="/"><img src="/" alt="GameHubLogo">Logo</a></div>
+        <nav class="toppers">
+            <ul>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms and Conditions</a></li>
+                <li><a href="../checkout/index.html">Your cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Your Cart</h1>
+        <div class="displayCartItems"></div>
+        <button class="clear-cart">Clear Cart</button>
+        <button class="buy-button">Buy</button>
+    </main>
+
+    <footer>
+        <ul>
+            <li>Contact</li>
+            <li>Report Issue</li>
+            <li>Rate us</li>
+        </ul>
+    </footer>
+    <script>
+        document.querySelector('.buy-button').addEventListener('click', function() {
+            window.location.href = '../confirmation/index.html';
+        });
+    </script>
+</body>
+</html>
