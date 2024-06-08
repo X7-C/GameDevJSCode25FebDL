@@ -31,16 +31,6 @@ There is no dependencies required just clone the repo and you are good to go!
 gh repo clone X7-C/GameDevJSCode25FebDL
 ```
 
-### Running
-
-
-To run the app, run the following commands:
-
-```bash
-npm run start
-```
-
-
 ## Contact
 
 [My LinkedIn page](www.linkedin.com) (Currently unupdated)
